@@ -16,7 +16,7 @@ import java.sql.Statement;
  */
 public class DB {
     
-    private static final String url = "jdbc:mysql://localhost:3306/zdravstvena_organizacija?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private static final String url = "jdbc:mysql://localhost:3306/klinikaDB?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String driverName = "com.mysql.cj.jdbc.Driver";
     private static final String username = "root";
     private static final String password = "jasmin123";
