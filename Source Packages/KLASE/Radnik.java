@@ -15,6 +15,7 @@ import java.util.List;
 public class Radnik {
     private int id;
     private String ime;
+    private String prezime;
     private String telefon;
     private HitniTim ht;
     private int uloga_id;
@@ -32,12 +33,37 @@ public class Radnik {
     public Radnik() {
         this.id = 0;
         this.ime = null;
+        this.prezime = null;
         this.telefon = null;
         this.ht = null;
         this.uloga_id = 0;
         this.ambulanta = null;
         this.dezure = new ArrayList<>();
         this.smjene = new ArrayList<>();
+    }
+
+    public String getPrezime() {
+        return prezime;
+    }
+
+    public void setPrezime(String prezime) {
+        this.prezime = prezime;
+    }
+
+    public List<Dezura> getDezure() {
+        return dezure;
+    }
+
+    public void setDezure(List<Dezura> dezure) {
+        this.dezure = dezure;
+    }
+
+    public List<Smjena> getSmjene() {
+        return smjene;
+    }
+
+    public void setSmjene(List<Smjena> smjene) {
+        this.smjene = smjene;
     }
 
     public int getId() {

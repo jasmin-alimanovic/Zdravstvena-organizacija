@@ -20,6 +20,11 @@ public class Ambulanta {
         this.naziv = naziv;
         this.adresa = adresa;
     }
+    public Ambulanta() {
+        this.id = 0;
+        this.naziv = null;
+        this.adresa = null;
+    }
 
     public int getId() {
         return id;
