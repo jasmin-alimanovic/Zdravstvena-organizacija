@@ -1,2 +1,3 @@
 # Zdravstvena-organizacija
-Desktop aplikacija cija je svrha regulisanje zdravstvenog sistema.(Projekat iz Razvoja Softvera)
+Desktop aplikacija rađena u javi(JFrame).
+Svrha aplikacije je regulisanje zdravstvenog sistema.(Projekat iz Razvoja Softvera)
